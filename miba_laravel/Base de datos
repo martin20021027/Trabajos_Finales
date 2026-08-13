@@ -1,1 +1,31 @@
 Esta es mi base de datos de mi proyecto miba_laravel
+
+La tabla pacientes:
+1- id: bigint
+2- apellido_nombre: varchar (255)
+3- dni: varchar (20)
+4- edad: int
+5- fecha_nacimiento: date
+6- domicilio: varchar (255)
+7-celular: varchar (30)
+8-ocupacion: varchar (255)
+9-obra_social: varchar (255)
+10-numero_afiliacion: varchar (255)
+11-profecional_deriva: varchar (255)
+12-fecha_inicio_tratamiento: date
+13-fecha_cirugia: date
+14-tto: text
+15-sesiones: int
+16-diagnostico: text
+17-medico_asignado: varchar (255)
+18-created_att: timestamp
+19-updated_at: timestamp
+
+La tabla turnos:
+1- id: bigint
+2- paciente_id: bigint
+3- fecha: date
+4- hora: time
+5- estado: varchar (50)
+6-created_att: timestamp
+7-updated_at: timestamp
