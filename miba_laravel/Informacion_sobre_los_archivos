@@ -1,0 +1,15 @@
+Estos son los archivos que tenes que agregarle un punto al principio del nombre:
+1- env queda (.env)
+2- editorconfig  queda (.editorconfig)
+3- env.example  queda (.env.example )
+4- gitattributes  queda (.gitattributes)
+5- gitigrone  queda (.gitigrone)
+6- npmrc  queda (.npmrc)
+
+Para descargarte el archivo de github a la compu tener que serir los siguientes pasos
+
+En una terminal de CMD pones lo siguietne:
+cd (donde lo queses al archivo de preferencia dentro de laragon)
+despues pones lo siguiente.
+git clone (el link del archivo de github) y enter.
+composer install --ignore-platform-req=php, y despues de que se instala la carpeta de "node_modules", poner el siguiente comando: "npm install".
